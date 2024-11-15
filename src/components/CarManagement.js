@@ -139,7 +139,7 @@ const CarManagement = () => {
 				</form>
 			)}
 
-			<div className='car-list'>
+			<div className='car-list-management'>
 				{cars.map(car => (
 					<div key={car._id} className='car-card'>
 						{car.images && car.images.length > 0 ? (

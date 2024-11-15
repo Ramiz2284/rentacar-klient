@@ -54,19 +54,19 @@ const CarList = () => {
 					<div
 						key={car._id}
 						onClick={() => handleCarClick(car)}
-						className='car-card'
+						className='car-list-card'
 					>
 						{car.images && car.images.length > 0 ? (
 							<img
 								src={`https://rentacar.pcref.site:8443/${car.images[0]}`}
 								alt={car.name}
-								className='car-image'
+								className='car-list-image'
 							/>
 						) : (
 							<div className='no-image'>Нет изображения</div>
 						)}
-						<h3 className='car-name'>{car.name}</h3>
-						<p className='car-price'>Цена: ${car.price}</p>
+						<h3 className='car-list-name'>{car.name}</h3>
+						<p className='car-list-price'>Цена: ${car.price}</p>
 					</div>
 				))}
 			</div>

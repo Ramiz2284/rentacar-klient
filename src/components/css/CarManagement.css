@@ -35,7 +35,7 @@
 }
 
 /* Стили для контейнера списка автомобилей */
-.car-list {
+.car-list-management {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 20px;

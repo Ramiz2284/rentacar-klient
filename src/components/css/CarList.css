@@ -221,3 +221,66 @@
 	display: block;
 	margin: 0 auto;
 }
+
+/* Мобильная версия для экранов 768px */
+@media (max-width: 768px) {
+	.car-list-card {
+		width: 90%;
+		padding: 10px;
+	}
+
+	.car-list-image,
+	.no-image {
+		width: 100%;
+	}
+
+	.car-list-name {
+		font-size: 50px;
+		padding: 5px;
+		margin: 5px;
+	}
+
+	.car-list-price {
+		font-size: 50px;
+		padding: 5px;
+		margin: 5px;
+	}
+
+	.modal-content {
+		width: 90%;
+	}
+}
+
+/* Мобильная версия для экранов 500px */
+@media (max-width: 500px) {
+	.car-card {
+		width: 100px;
+		padding: 8px;
+	}
+
+	.car-image,
+	.no-image {
+		height: 80px;
+	}
+
+	.car-name {
+		font-size: 12px;
+	}
+
+	.car-price {
+		font-size: 10px;
+	}
+
+	.order-button {
+		padding: 8px 16px;
+		font-size: 14px;
+	}
+
+	.modal-content {
+		width: 95%;
+	}
+
+	.close {
+		font-size: 40px;
+	}
+}
