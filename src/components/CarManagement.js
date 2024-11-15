@@ -144,7 +144,7 @@ const CarManagement = () => {
 					<div key={car._id} className='car-card'>
 						{car.images && car.images.length > 0 ? (
 							<img
-								src={`http://localhost:5000/${car.images[0]}`}
+								src={`https://rentacar.pcref.site:8443/${car.images[0]}`}
 								alt={car.name}
 								className='car-image'
 							/>
@@ -208,7 +208,7 @@ const CarManagement = () => {
 								{formData.existingImages.map((image, index) => (
 									<div key={index} className='image-preview'>
 										<img
-											src={`http://localhost:5000/${image}`}
+											src={`https://rentacar.pcref.site:8443/${image}`}
 											alt={`Фото ${index + 1}`}
 											width='80'
 										/>

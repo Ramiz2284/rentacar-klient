@@ -2,7 +2,8 @@
 import axios from 'axios'
 
 const api = axios.create({
-	baseURL: 'http://localhost:5000/api', // Замените на адрес вашего сервера
+	/* baseURL: 'https://rentacar.pcref.site:8443/api', */
+	baseURL: 'https://rentacar.pcref.site:8443/api',
 })
 
 // Добавление токена аутентификации к каждому запросу, если токен существует
