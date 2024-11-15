@@ -22,7 +22,7 @@
 }
 
 /* Стили для каждой карточки автомобиля */
-.car-card {
+.car-list-card {
 	width: 180px;
 	padding: 15px;
 	border-radius: 10px;
@@ -39,7 +39,7 @@
 }
 
 /* Стили для изображения автомобиля */
-.car-image {
+.car-list-image {
 	width: 100%;
 	height: 120px;
 	object-fit: cover;
@@ -224,6 +224,12 @@
 
 /* Мобильная версия для экранов 768px */
 @media (max-width: 768px) {
+	.carlist-h1 {
+		font-size: 50px;
+	}
+	.carlist-h2 {
+		font-size: 35px;
+	}
 	.car-list-card {
 		width: 90%;
 		padding: 10px;
@@ -232,6 +238,7 @@
 	.car-list-image,
 	.no-image {
 		width: 100%;
+		height: 50%;
 	}
 
 	.car-list-name {
@@ -253,22 +260,33 @@
 
 /* Мобильная версия для экранов 500px */
 @media (max-width: 500px) {
-	.car-card {
-		width: 100px;
-		padding: 8px;
+	.carlist-h1 {
+		font-size: 50px;
+	}
+	.carlist-h2 {
+		font-size: 35px;
+	}
+	.car-list-card {
+		width: 90%;
+		padding: 10px;
 	}
 
-	.car-image,
+	.car-list-image,
 	.no-image {
-		height: 80px;
+		width: 100%;
+		height: 50%;
 	}
 
-	.car-name {
-		font-size: 12px;
+	.car-list-name {
+		font-size: 50px;
+		padding: 5px;
+		margin: 5px;
 	}
 
-	.car-price {
-		font-size: 10px;
+	.car-list-price {
+		font-size: 50px;
+		padding: 5px;
+		margin: 5px;
 	}
 
 	.order-button {
